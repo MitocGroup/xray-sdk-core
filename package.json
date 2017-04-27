@@ -1,0 +1,111 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "aws-xray-sdk-core",
+        "scope": null,
+        "escapedName": "aws-xray-sdk-core",
+        "name": "aws-xray-sdk-core",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/mgoria/Documents/workspace/MitocGroup"
+    ]
+  ],
+  "_from": "aws-xray-sdk-core@latest",
+  "_id": "aws-xray-sdk-core@1.1.0",
+  "_inCache": true,
+  "_location": "/aws-xray-sdk-core",
+  "_nodeVersion": "4.3.2",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/aws-xray-sdk-core-1.1.0.tgz_1492580405554_0.07067610672675073"
+  },
+  "_npmUser": {
+    "name": "aws",
+    "email": "aws-sdk-js@amazon.com"
+  },
+  "_npmVersion": "2.2.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "aws-xray-sdk-core",
+    "scope": null,
+    "escapedName": "aws-xray-sdk-core",
+    "name": "aws-xray-sdk-core",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/aws-xray-sdk-core/-/aws-xray-sdk-core-1.1.0.tgz",
+  "_shasum": "f67f1c6203b8d3959606ad2131e6264a28627f2b",
+  "_shrinkwrap": null,
+  "_spec": "aws-xray-sdk-core",
+  "_where": "/Users/mgoria/Documents/workspace/MitocGroup",
+  "author": {
+    "name": "Amazon Web Services"
+  },
+  "contributors": [
+    {
+      "name": "Sandra McMullen",
+      "email": "mcmuls@amazon.com"
+    }
+  ],
+  "dependencies": {
+    "continuation-local-storage": "^3.2.0",
+    "moment": "^2.15.2",
+    "pkginfo": "^0.4.0",
+    "semver": "^5.3.0",
+    "underscore": "^1.8.3",
+    "winston": "^2.2.0"
+  },
+  "description": "AWS X-Ray SDK for Javascript",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.10.2",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-jsdoc": "^2.1.0",
+    "mocha": "^3.0.2",
+    "nock": "^8.0.0",
+    "sinon": "^1.17.5",
+    "sinon-chai": "^2.8.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dist": {
+    "shasum": "f67f1c6203b8d3959606ad2131e6264a28627f2b",
+    "tarball": "https://registry.npmjs.org/aws-xray-sdk-core/-/aws-xray-sdk-core-1.1.0.tgz"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "keywords": [
+    "amazon",
+    "api",
+    "aws",
+    "core",
+    "xray",
+    "x-ray",
+    "x ray"
+  ],
+  "license": "Apache-2.0",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "aws",
+      "email": "aws-sdk-js@amazon.com"
+    }
+  ],
+  "name": "aws-xray-sdk-core",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "mocha --recursive ./test/ -R spec"
+  },
+  "version": "1.1.0"
+}
