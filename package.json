@@ -54,7 +54,7 @@
       "email": "aws-sdk-js@amazon.com"
     }
   ],
-  "name": "aws-xray-sdk-core",
+  "name": "xray-sdk-core",
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
   "scripts": {
